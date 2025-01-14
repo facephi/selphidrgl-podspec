@@ -40,9 +40,8 @@ Pod::Spec.new do |spec|
     spec.pod_target_xcconfig  = { 'EXCLUDED_ARCHS' => 'armv7' }
     spec.user_target_xcconfig  = { 'EXCLUDED_ARCHS' => 'armv7' }
   
-    spec.dependency 'DocumentReader', '~> 6.9.0'
-    spec.dependency 'DocumentReaderFullAuth', '~> 6.9.0'
-    spec.dependency "FPhiMBWidgetiOS", "6.11.0"
+    spec.dependency 'DocumentReader', '~> 7.5.0'
+    spec.dependency 'DocumentReaderFull', '~> 7.5.0'
     spec.dependency "zipzap"
   
   
