@@ -42,7 +42,7 @@ Pod::Spec.new do |spec|
   
     spec.dependency 'DocumentReader', '~> 7.5.0'
     spec.dependency 'DocumentReaderFull', '~> 7.5.0'
-    spec.dependency 'FPHILicenseManager', '~> 0.4.0'
+    spec.dependency 'FPHILicenseManager', '< 1.0.0'
     spec.dependency "zipzap"
   
   
